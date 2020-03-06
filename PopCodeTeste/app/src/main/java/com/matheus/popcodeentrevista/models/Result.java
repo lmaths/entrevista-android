@@ -2,7 +2,7 @@ package com.matheus.popcodeentrevista.models;
 
 import java.util.List;
 
-public class Character {
+public class Result {
     private String name, height, mass, hair_color, skin_color, eye_color, birth_year, gender, homeworld, created, edited, url;
     private List<String> films, species, vehicles, starships;
 
