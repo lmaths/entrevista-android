@@ -1,8 +1,9 @@
 package com.matheus.popcodeentrevista.models;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Result {
+public class Result implements Serializable {
     private String name, height, mass, hair_color, skin_color, eye_color, birth_year, gender, homeworld, created, edited, url;
     private List<String> films, species, vehicles, starships;
 
